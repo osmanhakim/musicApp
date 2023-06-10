@@ -16,6 +16,6 @@ functionallity := >  music App
 11) remove "block" following users
 12) receive notification when following users add post
 
-demo live : https://playcloud-e108c.web.app/
-username:adelnoor@gmail.com
-password:12345678
+<p> demo live : https://playcloud-e108c.web.app/ </p>
+<p>username:adelnoor@gmail.com</p>
+<p>password:12345678</p>
