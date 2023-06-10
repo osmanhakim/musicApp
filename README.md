@@ -15,3 +15,7 @@ functionallity := >  music App
 10) follow / unfollow users
 11) remove "block" following users
 12) receive notification when following users add post
+
+demo live : https://playcloud-e108c.web.app/
+username:adelnoor@gmail.com
+password:12345678
