@@ -1,0 +1,11 @@
+.div {
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.div p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}

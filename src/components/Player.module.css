@@ -1,0 +1,237 @@
+.player {
+  grid-column: span 2 / span 2;
+  background-color: black;
+  padding-top: 120px;
+  grid-column: span 4 / span 4;
+}
+
+.player > div:nth-child(1) {
+  background-color: #202026;
+  padding: 15px;
+  margin-bottom: 0;
+  border-radius: 6px;
+  overflow: hidden;
+  text-align: center;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin: 10px 10px 0 10px;
+}
+
+.player > div > div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.player > div > div:nth-child(1) > span:first-child {
+  color: #ddd;
+}
+
+/* child has icon */
+.player > div > div:nth-child(1) > span:nth-child(2) {
+  color: #ddd;
+}
+.player > div > span {
+}
+
+.player > div > img {
+  width: 180x;
+  margin: auto;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.player > div > h4 {
+  font-size: 18px;
+  color: #eee;
+  font-weight: bold;
+}
+
+.player > div > p {
+  color: #ccc;
+  position: relative;
+  bottom: 5px;
+}
+
+.player > div > span {
+  color: #999;
+  font-size: 10px;
+  position: relative;
+  bottom: 10px;
+}
+
+/* ======================= */
+
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ddd;
+}
+
+.div span:first-child {
+}
+
+.div span:first-child svg {
+}
+
+.div span {
+  color: #ddd;
+  font-size: 10px;
+}
+
+.div div input[type="range"] {
+  -webkit-appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 100%;
+  appearance: none;
+  position: relative;
+  /* z-index: 200; */
+  -moz-appearance: initial;
+}
+.div div input[type="range"]::before {
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #333;
+  z-index: 10;
+}
+
+.div div input[type="range"]::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: var(--width);
+  height: 100%;
+  background-color: #ddd;
+  z-index: 11;
+}
+
+.div div span {
+  border-radius: 10px;
+  background: transparent;
+  display: inline-block;
+  height: 3px;
+  appearance: none;
+  background-color: blue;
+  z-index: 10;
+  position: absolute;
+  left: 0;
+  bottom: 6px;
+}
+
+.span {
+  border-radius: 10px;
+  background: transparent;
+  display: inline-block;
+  height: 3px;
+  width: 100%;
+  appearance: none;
+  background-color: blue;
+  z-index: 10;
+  position: absolute;
+  left: 0;
+  bottom: 6px;
+}
+.div div input::-webkit-slider-runnable-track {
+  height: 5px;
+  background-color: transparent;
+  border-radius: 10px;
+  z-index: 15;
+}
+
+.div div input::-moz-range-track {
+  height: 5px;
+  background-color: transparent;
+  border-radius: 10px;
+  z-index: 15;
+}
+
+.div div input::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  border: none;
+  border-radius: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: black;
+  margin-top: -3px;
+  border: 3px solid #eee;
+  z-index: 300;
+}
+
+.div div input::-moz-range-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  border: none;
+  border-radius: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  margin-top: -3px;
+  border: 3px solid #eee;
+  z-index: 100;
+}
+
+.div > span:nth-child(1) {
+  position: relative;
+  top: 5px;
+}
+
+.div > span:nth-child(3) {
+  position: relative;
+  top: 5px;
+}
+
+.player > div:nth-child(2) {
+  background-color: #5773ff;
+  padding: 15px;
+  padding-top: 20px;
+  border-radius: 6px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 10px 10px 10px;
+  padding-bottom: 50px;
+}
+
+.player > div:nth-child(2) svg {
+  color: #fff;
+  font-size: 10px;
+}
+
+.player > div:nth-child(2) button:nth-child(2) {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.player > div:nth-child(2) button:nth-child(2) svg {
+  color: #5773ff;
+}
+
+@media (min-width: 768px) {
+  .player {
+    grid-column: span 2 / span 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .player {
+  }
+}
+
+@media (min-width: 1280px) {
+}

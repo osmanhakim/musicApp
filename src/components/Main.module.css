@@ -1,0 +1,32 @@
+.main {
+  width: auto;
+  height: 100%;
+  grid-column: 1 / -1;
+  background-color: black;
+  /* background-image: url("https://upload.wikimedia.org/wikipedia/en/7/7a/Adele_-_Someone_Like_You.png");
+  background-image: url(); */
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  padding: 15px;
+}
+
+@media (min-width: 640px) {
+  .main {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .main {
+    grid-column: span 8 / span 8;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main {
+    grid-column: span 8 / span 8;
+  }
+}
+
+@media (min-width: 1280px) {
+}

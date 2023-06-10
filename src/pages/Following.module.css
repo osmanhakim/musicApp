@@ -1,0 +1,38 @@
+.box {
+}
+
+.item {
+  padding: 20px;
+  border: 1px solid #333;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.item > div img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.item > div p {
+  margin-top: 20px;
+  color: #ddd;
+  align-self: flex-start;
+  font-size: 20px;
+}
+
+.item button {
+  color: #111;
+  padding: 6px 12px;
+  background-color: #ddd;
+  border-radius: 6px;
+}

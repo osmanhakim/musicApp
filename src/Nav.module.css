@@ -1,0 +1,22 @@
+.icon {
+  background-color: white;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: 20px;
+  display: none;
+  transition: 0.3s;
+  position: absolute;
+  top: 0;
+}
+
+@media (min-width: 1024) {
+  .icon {
+    margin-right: 0;
+    margin-left: 0;
+    width: auto;
+    background-color: black;
+    display: block;
+  }
+}
+
+/* bg-white w-fit ml-auto mr-5 lg:mr-0 lg:ml-0 lg:w-auto lg:bg-black lg:block hidden   transition */

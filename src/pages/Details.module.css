@@ -1,0 +1,49 @@
+.details {
+  margin-bottom: 100px;
+}
+
+.details img {
+  width: 50%;
+}
+
+.details p:nth-child(4) {
+  margin-top: 20px;
+  color: #ddd;
+  text-align: center;
+}
+.details p:nth-child(3) {
+  color: #ddd;
+}
+.details p:nth-child(2) {
+  margin-top: 10px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #ddd;
+}
+
+.details form {
+}
+
+.details form .input {
+  background-color: black;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ddd;
+  color: #ddd;
+  padding: 8px 16px;
+  width: 100%;
+}
+
+.details form input::placeholder {
+  color: #ddd;
+}
+.details form button {
+  margin-top: 10px;
+  background-color: #5773ff;
+  color: #333;
+  width: fit-content;
+  margin-left: auto;
+  display: block;
+  padding: 10px 20px;
+  border-radius: 10px;
+}

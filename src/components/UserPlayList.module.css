@@ -1,0 +1,75 @@
+.div {
+  z-index: 1000;
+  background-color: #333;
+  position: absolute;
+  right: 15%;
+  top: 50%;
+  transform: translateY(-50%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px 20px;
+  border-radius: 6px;
+}
+.div p {
+  color: #ddd;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.div form {
+}
+
+.div form ul {
+  margin-bottom: 10px;
+}
+
+.div form ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.div form ul li span {
+  color: #ddd;
+}
+
+.div form input[type="checkbox"] {
+  display: inline-block;
+  color: red;
+  accent-color: #333;
+}
+
+.div form input[type="text"] {
+  padding: 5px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  display: block;
+  border-radius: 6px;
+}
+
+.div form input[type="text"]:focus {
+  border: none;
+}
+
+.div form {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.div form button {
+  background-color: #ddd;
+  padding: 4px 12px;
+  border-radius: 6px;
+  width: max-content;
+  margin: auto;
+  font-size: 12px;
+}
+.div form button:nth-child(2) {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.div form button:last-child {
+  display: block;
+  margin-bottom: 10px;
+}

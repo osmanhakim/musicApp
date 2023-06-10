@@ -1,0 +1,55 @@
+.Item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: #ddd;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  transition: 0.3s;
+}
+
+.Item:hover {
+  border: 1px solid #ddd;
+  background-color: #2a292e;
+}
+
+.Item div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+/* 
+.Item div:first-child p:first-child {
+  padding: 10px;
+  border: 1px solid #ddd;
+} */
+
+.Item > div > p {
+  padding: 10px;
+}
+.Item div:first-child div {
+  padding: 10px 20px;
+}
+.Item div:first-child div p {
+  margin-bottom: 5px;
+}
+
+.Item div:first-child div span {
+  color: #777;
+}
+
+.Item div:first-child p:last-child {
+}
+
+.Item div:nth-child(2) {
+}
+
+.Item div:nth-child(2) button {
+}
+
+.data {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

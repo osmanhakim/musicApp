@@ -1,0 +1,103 @@
+.signup {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+
+.signup > div {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 60px;
+  text-align: center;
+  color: #ddd;
+}
+.signup h3 {
+  color: #ddd;
+  font-size: 45px;
+  margin: 0;
+  padding: 0;
+}
+
+.signup p {
+  text-align: left;
+  margin: 10px 0 25px 0;
+}
+
+.signup form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.signup form div {
+}
+
+.signup label {
+  position: relative;
+  margin-right: 40px;
+  padding: 5px;
+}
+
+.signup div label {
+  position: relative;
+  margin-right: 40px;
+}
+
+.signup div label:last-child {
+  margin-right: 0;
+}
+
+.signup label span {
+  position: absolute;
+  font-size: 10px;
+  left: 20px;
+  top: -5px;
+  color: #646672;
+}
+
+.signup label input {
+  padding: 15px 15px 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(50, 54, 68, 0.4);
+  color: #eee;
+  border: 1px solid transparent;
+}
+
+.signup label input:focus {
+  border: 1px solid #ddd;
+  outline: none;
+}
+.signup .label {
+  width: 100%;
+  position: relative;
+  text-align: left;
+}
+
+.signup .label span {
+  position: absolute;
+  left: 20px;
+  top: 8px;
+  width: 100%;
+}
+.signup .label input {
+  width: 100%;
+}
+
+.signup button {
+  background-color: #ddd;
+  width: max-content;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-left: auto;
+  color: #333;
+  font-weight: bold;
+}
+
+.signup a {
+  text-decoration: none;
+  color: #2167a7;
+  display: inline-block;
+}

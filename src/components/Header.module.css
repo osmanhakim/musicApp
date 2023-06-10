@@ -1,0 +1,96 @@
+.header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  grid-column: 1 / span 12;
+  background-color: black;
+  /* gap: 40px; */
+  position: relative;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  /* padding: 20px; */
+  padding: 10px;
+}
+
+.header form {
+  position: relative;
+  /* flex: 1; */
+  /* width: 60%; */
+}
+
+.header a {
+  display: inline-block;
+  width: max-content;
+}
+
+.header form span {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  transform: translateY(-50%);
+  margin-right: 30px;
+  display: inline-block;
+}
+
+.header div {
+  /* margin-right: 100px; */
+}
+
+.header p {
+  margin-left: 20px;
+}
+.header div {
+  display: flex;
+  align-items: center;
+}
+
+.header div p {
+  display: block;
+  /* position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 100px; */
+}
+.header div img {
+  display: block;
+  height: 45px;
+  border-radius: 10px;
+}
+.header form input {
+  background-color: #333;
+  color: #ddd;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .header form {
+    /* width: 80%; */
+  }
+}
+
+@media (min-width: 1424px) {
+  .header form {
+    /* width: 70%; */
+  }
+}
+
+@media (max-width: 800px) {
+  .header div {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center;
+    text-align: center; */
+  }
+
+  .header div p {
+    width: fit-content;
+    margin: auto;
+  }
+}
+
+@media (max-width: 483px) {
+  .header form input {
+  }
+}
